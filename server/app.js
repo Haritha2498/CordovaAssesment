@@ -97,13 +97,13 @@ app.delete('/tasks/:id',async(req,res)=>{
 })
 
 
-app.get("/filtertask",(req,res)=>{
-    try {
+// app.get("/filtertask",(req,res)=>{
+//     try {
         
-    } catch (error) {
+//     } catch (error) {
         
-    }
-})
+//     }
+// })
 
 
 app.listen(port,()=>
