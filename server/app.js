@@ -97,6 +97,15 @@ app.delete('/tasks/:id',async(req,res)=>{
 })
 
 
+app.get("/filtertask",(req,res)=>{
+    try {
+        
+    } catch (error) {
+        
+    }
+})
+
+
 app.listen(port,()=>
 {
     console.log("server is running on port : "+port);

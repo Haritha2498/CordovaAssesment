@@ -11,6 +11,7 @@ import {
 import Task from './Pages/Task';
 import Addtask from './Pages/Addtask';
 import Edittask from './Pages/Edittask';
+import Filtertask from './Pages/Filtertask';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Task />} />
         <Route path="/addtask" element={<Addtask />} />
         <Route path="/edittask/:id" element={<Edittask />} />
+        <Route path="/filter" element={<Filtertask />} />
       </>
     )
   );
