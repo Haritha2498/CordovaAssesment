@@ -31,5 +31,17 @@ npm run dev
 ```
 
 
+### API Routes
+1.GET/tasks--- To get all Tasks<br/>
+2.POST/tasks---  To Add a New Task<br/>
+3.PUT/tasks--- To Update a existing Task<br/>
+4.DELTE/task---To Delete a Task
+
+
+### Technologies Used:
+HTML,TailwindCSS ,NodeJS,Express ,React ,MongoDB
+
+
+
 
 
